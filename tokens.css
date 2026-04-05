@@ -1,0 +1,41 @@
+/* DBQHelp Design Tokens — Brand override of cup-core tokens
+ * Forest green medical/trust palette for veteran services */
+
+:root {
+  /* ── Brand Colors ── */
+  --cup-color-surface:      #FAFAFA;
+  --cup-color-on-surface:   #1A1A1A;
+  --cup-color-surface-alt:  #F0F4F1;
+  --cup-color-primary:      #1B4332;
+  --cup-color-on-primary:   #FFFFFF;
+  --cup-color-secondary:    #83C99A;
+  --cup-color-error:        #B7312C;
+  --cup-color-on-error:     #FFFFFF;
+  --cup-color-success:      #2D6A4F;
+  --cup-color-warning:      #E67E22;
+  --cup-color-info:         #2980B9;
+  --cup-color-border:       #D5DDD8;
+  --cup-color-focus:        #2D6A4F;
+  --cup-color-disabled:     #B0B0B0;
+  --cup-color-on-disabled:  #777777;
+  --cup-color-placeholder:  #999999;
+
+  /* ── Brand-specific ── */
+  --dbq-color-hero-bg:      #1B4332;
+  --dbq-color-hero-text:    #FFFFFF;
+  --dbq-color-accent:       #2D6A4F;
+  --dbq-color-accent-hover: #3D8B6A;
+  --dbq-color-cta:          #B7312C;
+  --dbq-color-cta-hover:    #D4443E;
+  --dbq-color-trust-bg:     #F0F4F1;
+  --dbq-color-card-bg:      #FFFFFF;
+  --dbq-color-footer-bg:    #0D2818;
+  --dbq-color-footer-text:  #D0D0D0;
+
+  /* ── Typography ── */
+  --cup-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --cup-line-height: 1.6;
+
+  /* ── Shadow override for light ── */
+  --cup-shadow-color: 210 10% 23%;
+}
