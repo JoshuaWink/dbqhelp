@@ -1,7 +1,63 @@
-/* DBQHelp Design Tokens — Brand override of cup-core tokens
- * Forest green medical/trust palette for veteran services */
+/* DBQHelp Design Tokens
+ * cup-core foundation + forest green brand overrides for veteran services */
 
 :root {
+  /* ══════════════════════════════════════════════
+   * cup-core Foundation Tokens
+   * ══════════════════════════════════════════════ */
+
+  /* ── Spacing ── */
+  --cup-space-2xs: 0.125rem;  /*  2px */
+  --cup-space-xs:  0.25rem;   /*  4px */
+  --cup-space-sm:  0.5rem;    /*  8px */
+  --cup-space-md:  1rem;      /* 16px */
+  --cup-space-lg:  1.5rem;    /* 24px */
+  --cup-space-xl:  2rem;      /* 32px */
+  --cup-space-2xl: 3rem;      /* 48px */
+
+  /* ── Typography Scale ── */
+  --cup-font-size-xs:   0.75rem;    /* 12px */
+  --cup-font-size-sm:   0.875rem;   /* 14px */
+  --cup-font-size-base: 1rem;       /* 16px */
+  --cup-font-size-lg:   1.25rem;    /* 20px */
+  --cup-font-size-xl:   1.5rem;     /* 24px */
+  --cup-font-size-2xl:  2rem;       /* 32px */
+  --cup-font-weight-normal: 400;
+  --cup-font-weight-medium: 500;
+  --cup-font-weight-bold:   700;
+  --cup-line-height-tight:  1.25;
+
+  /* ── Shape ── */
+  --cup-radius-sm:   4px;
+  --cup-radius-md:   8px;
+  --cup-radius-lg:   12px;
+  --cup-radius-full: 9999px;
+
+  /* ── Motion ── */
+  --cup-transition-fast:   150ms ease;
+  --cup-transition-normal: 250ms ease;
+  --cup-transition-slow:   400ms ease;
+
+  /* ── Elevation ── */
+  --cup-shadow-color: 210 10% 23%;
+  --cup-shadow-sm:  0  1px  2px hsl(var(--cup-shadow-color) / 0.15);
+  --cup-shadow-md:  0  4px  8px hsl(var(--cup-shadow-color) / 0.15);
+  --cup-shadow-lg:  0  8px 24px hsl(var(--cup-shadow-color) / 0.15);
+
+  /* ── Touch Target ── */
+  --cup-touch-min: 44px;
+
+  /* ── Z-Index Scale ── */
+  --cup-z-dropdown: 100;
+  --cup-z-sticky:   200;
+  --cup-z-overlay:  300;
+  --cup-z-modal:    400;
+  --cup-z-toast:    500;
+
+  /* ══════════════════════════════════════════════
+   * DBQHelp Brand Overrides
+   * ══════════════════════════════════════════════ */
+
   /* ── Brand Colors ── */
   --cup-color-surface:      #FAFAFA;
   --cup-color-on-surface:   #1A1A1A;
@@ -32,10 +88,7 @@
   --dbq-color-footer-bg:    #0D2818;
   --dbq-color-footer-text:  #D0D0D0;
 
-  /* ── Typography ── */
+  /* ── Typography Override ── */
   --cup-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --cup-line-height: 1.6;
-
-  /* ── Shadow override for light ── */
-  --cup-shadow-color: 210 10% 23%;
 }
